@@ -1,0 +1,12 @@
+<suite name="Ohrmregression">
+	<test name="chromTest">
+		<parameters>
+			<parameter name="browser" value="chrome" />
+			<parameter name="appUrl" value="http://opensource.demo.orangehrmlive.com/" />
+		</parameters>
+		<classes>
+			<class name="com.tng.ohrm.OhrmAddEmployee_Verifications_Reports" />
+		</classes>
+
+	</test>
+</suite>

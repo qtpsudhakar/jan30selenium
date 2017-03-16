@@ -1,0 +1,13 @@
+<suite name="Ohrmregression" parallel="tests">
+	<test name="chromTest">
+		<parameters>
+			<parameter name="browser" value="chrome" />
+			<parameter name="appUrl" value="http://opensource.demo.orangehrmlive.com/" />
+			<parameter name="dtFlPath" value = "C:\\Users\\envy\\Desktop\\Selenium_Jan30_Notes\\Data\\Ohrm_Old.xls"> </parameter>
+		</parameters>
+		<classes>
+			<class name="com.tng.ohrm.OhrmAddEmployee_DD_Excel" />
+		</classes>
+
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<suite name="Ohrmregression" parallel="tests">
+	<test name="chromTest">
+		<parameters>
+			<parameter name="browser" value="chrome" />
+			<parameter name="appUrl" value="http://opensource.demo.orangehrmlive.com/" />
+			<parameter name="nodeUrl" value="http://192.168.238.1:5555/wd/hub" />
+		</parameters>
+		<classes>
+			<class name="com.tng.ohrm.OhrmAddEmployee_Grid" />
+		</classes>
+
+	</test>
+
+	<test name="ffTest">
+		<parameters>
+			<parameter name="browser" value="ff" />
+			<parameter name="appUrl" value="http://opensource.demo.orangehrmlive.com/" />
+			<parameter name="nodeUrl" value="http://192.168.238.1:5555/wd/hub" />
+		</parameters>
+		<classes>
+			<class name="com.tng.ohrm.OhrmAddEmployee_Grid" />
+		</classes>
+
+	</test>
+</suite>

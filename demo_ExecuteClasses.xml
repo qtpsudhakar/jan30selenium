@@ -1,0 +1,10 @@
+<suite name="regression">
+	<test name="cycle1">
+		<classes>
+			<class name="com.tng.basics.Demotest1" />
+			<class name="com.tng.basics.Demotest2" />
+			<class name="com.tng.basics.DemoTest3" />
+		</classes>
+
+	</test>
+</suite>
