@@ -67,5 +67,6 @@
 	<classpathentry kind="lib" path="F:/SeleniumSoftware/Jars/extentreports-java-2.41.2/lib/mongodb-driver-core-3.0.4.jar"/>
 	<classpathentry kind="lib" path="F:/SeleniumSoftware/Jars/extentreports-java-2.41.2/lib/snakeyaml-1.15.jar"/>
 	<classpathentry kind="lib" path="F:/SeleniumSoftware/Jars/extentreports-java-2.41.2/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumSoftware/Jars/mysql-connector-java-6.0.4/mysql-connector-java-6.0.4-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

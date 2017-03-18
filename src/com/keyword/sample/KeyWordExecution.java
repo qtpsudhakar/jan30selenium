@@ -12,12 +12,15 @@ public class KeyWordExecution {
 			Object... inputArgs) {
 
 		Class params[] = new Class[inputArgs.length];
-
+		
+		
 		for (int i = 0; i < inputArgs.length; i++) {
+			
 			if (inputArgs[i] instanceof String) {
-				params[i] = String.class;
+				params[i] = inputArgs[i].getClass();
 			}
 		}
+		
 		try {
 			Class cls = Class.forName(strClassName);
 			Object _instance = cls.newInstance();

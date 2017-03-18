@@ -28,14 +28,25 @@ public class ReflectApp {
 
 			// call the printItString method, pass a String param
 			method = cls.getDeclaredMethod("printItString", paramString);
-			method.invoke(obj, new String("mkyong"));
+			method.invoke(obj, "sudhakar");
 
 			// call the printItInt method, pass a int param
 			method = cls.getDeclaredMethod("printItInt", paramInt);
 			method.invoke(obj, 123);
 
+			demo(2,4,1,5,7,8,1,0);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
+	
+	public static void demo(int... x){
+		System.out.println(x[0]);
+		System.out.println(x[1]);
+	}
 }
+
+
+
+
+
